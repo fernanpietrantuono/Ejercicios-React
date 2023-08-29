@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
-import { Cards } from './Cards'
+import { CardsRM } from './CardsRM'
 
-export default class Main extends Component {
+export default class MainRM extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { mascotas: [] }
+    }
+
     render() {
         return (
             <div>
@@ -9,8 +15,8 @@ export default class Main extends Component {
                     <section className="py-5 text-center container">
                         <div className="row py-lg-5">
                             <div className="col-lg-6 col-md-8 mx-auto">
-                                <h1 className="fw-light">Music library</h1>
-                                <p className="lead text-body-secondary">There are the hot top 4 album chart and the hot top 5 single chart of the world</p>
+                                <h1 className="fw-light">Characters</h1>
+                                <p className="lead text-body-secondary">There are 20 characters of the famous animated TV series Rick & Morty</p>
                                 <p>
                                     <a href="#" className="btn btn-primary my-2">Main call to action</a>
                                     <a href="#" className="btn btn-secondary my-2">Secondary action</a>
@@ -18,7 +24,7 @@ export default class Main extends Component {
                             </div>
                         </div>
                     </section>
-                    <Cards />
+                    <CardsRM />
                 </main>
             </div>
         )

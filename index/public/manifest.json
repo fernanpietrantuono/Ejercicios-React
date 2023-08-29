@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short name": "React App",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -18,13 +18,13 @@
       "sizes": "512x512"
     },
     {
-      "src": "La_flor_de_la_vida.jpg",
-      "type": "image/jpg",
+      "src": "La flor de la vida.png",
+      "type": "image/png",
       "sizes": "64x64 32x32 24x24 16x16"
     }
   ],
-  "start_url": ".",
+  "start url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme color": "#000000",
+  "background color": "#ffffff"
 }
